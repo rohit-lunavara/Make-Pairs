@@ -86,7 +86,7 @@ extension ViewController {
                 btn.layer.borderColor = K.hiddenColor.cgColor
                 btn.layer.borderWidth = btn.frame.width / 50
                 btn.clipsToBounds = true
-                
+
                 // Change color when button is pressed
                 let renderer = UIGraphicsImageRenderer(bounds: btn.frame)
                 let image = renderer.image { (ctx) in
@@ -94,6 +94,11 @@ extension ViewController {
                     ctx.cgContext.fill(btn.frame)
                 }
                 btn.setBackgroundImage(image, for: .highlighted)
+                
+                btn.layer.shadowColor = K.hiddenColor.cgColor
+                btn.layer.shadowRadius = btn.layer.borderWidth / 10
+                btn.layer.shadowOffset = CGSize(width: btn.layer.borderWidth, height: btn.layer.borderWidth)
+                btn.layer.shadowOpacity = 0.25
             }
         }
     }
@@ -109,6 +114,7 @@ extension UIButton {
             self.setTitle(title, for: .normal)
             self.setTitleColor(color, for: .normal)
             self.layer.borderColor = color.cgColor
+            self.layer.shadowColor = color.cgColor
         }) { (done) in
             if done {
                 if state == .hidden {
