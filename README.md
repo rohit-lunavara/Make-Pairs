@@ -2,9 +2,9 @@
 
 An iOS game where you find pairs from a group of 16 cards.
 
-A memory based card game based on the popular show "Concentration".
+A memory based card game based on the popular game show "Concentration".
 
-Support for all iOS devices using AutoLayout (includes UI resize based on iOS device size classes) and macOS (10.15+) using Mac Catalyst.
+Support for all iOS devices (13.0+) using AutoLayout (includes UI resize based on iOS device size classes) and macOS (10.15+) using Mac Catalyst.
 
 # Technologies and Frameworks Used
 
