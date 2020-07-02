@@ -1,3 +1,5 @@
+![App Icon](https://github.com/rohit-lunavara/Make-Pairs/blob/master/Make-Pairs/Assets.xcassets/AppIcon.appiconset/180.png?raw=true)
+
 # Make-Pairs
 
 An iOS game where you find pairs from a group of 16 cards.
@@ -37,3 +39,7 @@ Support for all iOS devices (13.0+) using AutoLayout (includes UI resize based o
 - Add game variations to pair images as well.
 - Add separate Easy, Medium and Hard modes.
 - Add a timed mode.
+
+# Credits
+
+- App Icon designed by me using [**Canva**](https://www.canva.com/).
