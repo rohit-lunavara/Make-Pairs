@@ -14,7 +14,7 @@ Support for all iOS devices (13.0+) using AutoLayout (includes UI resize based o
 - **Key-Value Observing** to handle loading and saving the game session.
 - **Grand Central Dispatch** to synchronize user interaction.
 - **Core Graphics** to customize **UIButton** by adding custom styling and shadows.
-- Extending **UIButton** to group related actions and add animations.
+- Extending **UIButton** to group related actions and add animations using **Core Animation**.
 
 # Screenshots
 
